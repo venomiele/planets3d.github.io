@@ -197,19 +197,7 @@
   perspective: 1000px;
 }
 
-/* Media Query */
-@media screen and (max-width: 962px) {
-  .card-container {
-    flex-direction: column;
-    height: auto;
-  }
-  .card1 {
-    margin-top: 25px;
-    font-size: 0.5rem;
-    min-height: 50%;
-    min-width: 50%;
-  }
-}
+/* Media Queries */
 
 @media screen and (max-width: 962px) {
   .card-container {
@@ -250,17 +238,30 @@
 }
   
   @media screen and (max-width: 669px) {
+
      .description {
-  font-size: 0.25rem;
-       padding-right: 10px;
-  padding-left: 10px;
+  font-size: 1rem;
   }
     
     .card-buttons,
     .card-buttons2,
     .card-buttons3 {
-      font-size: 0.25rem;
+      font-size: 1rem;
+    }
+.card1{
+  width: 80%;
+}
+
+    .card-container {
+      width: 95%;
+    }
+
+    .facts {
+      font-size: 1.5rem;
+    }
+
+    .title {
+      font-size: 1rem;
     }
   }
-
 }
