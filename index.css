@@ -87,3 +87,83 @@
    transform: translateZ(40px);
     
   }
+
+  .js-tilt-glare {
+    border-radius: 12px;
+  }
+  
+  .card-text {
+    height: 54%;
+    width: 100%;
+    background: rgba(0,0,0,.5);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+  
+  }
+  .title {
+    margin-bottom: 0px;
+    text-shadow: 2px 1px 2px white;
+    transform: translateZ(50px);
+  }
+  .description {
+      transform: translateZ(50px);
+    padding-right: 35px;
+    padding-left: 35px;
+    font-size: 0.75rem;
+  }
+  .facts {
+    font-size: 1rem;
+  }
+  .million {
+    font-weight: 500;
+  }
+  .number {
+    font-weight: 700;   
+  }
+  
+  .card-buttons {
+    color: white;
+    height: 13%;
+    width: 100%;
+    border-bottom-left-radius: 12px;
+      border-bottom-right-radius: 12px;
+      background: url("https://cdn.pixabay.com/photo/2015/08/28/11/27/space-911785_960_720.jpg");
+    display: flex;
+    justify-content: space-between;
+     transform-style: preserve-3d;
+    perspective: 1000px;
+  }
+  
+  .buttons1 {
+    width: 33.3%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    transform: translateZ(15px);
+  }
+  
+  .buttons2 {
+    width: 33.3%;
+      display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+      transform: translateZ(15px);
+  }
+  
+  .buttons3 {
+    width: 33.3%;
+      display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+      transform: translateZ(15px);
+  }
+  
