@@ -264,6 +264,7 @@ body {
   font-size: 0.5rem;
   margin: 0.5rem;
   }
+
     
     .card-buttons,
     .card-buttons2,
@@ -272,6 +273,14 @@ body {
     }
     .card-container {
       width: 100%;
+    }
+
+    .js-tilt-glare {
+      border-radius: 12px;
+    }
+
+    .delete {
+      display: none;
     }
 
   }
